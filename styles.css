@@ -1,0 +1,181 @@
+* {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #E1F0FF;
+}
+
+.main {
+	width: 70%;
+	margin-top: 100px;
+	margin-left: 15%;
+}
+
+.header {
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	height: 75px;
+	opacity: 1;
+	z-index: 1;
+	background-color: white;
+
+}
+
+.title {
+	width: 30%;
+	position: absolute;
+}
+
+.title-top-text {
+	font-size: 25px;
+	text-align: center;
+	margin-top: 5px;
+	font-family: 'Oswald';
+	height: 60%;
+}
+
+.title-bottom-text {
+	font-size: 15px;
+	text-align: center;
+	font-family: 'Poiret One';
+	height: 30%;
+	font-weight: bold;
+}
+
+.navigation {
+	width: 70%;
+	margin-left: 30%;
+}
+
+.nav-item {
+	position: relative;
+	text-align: center;
+	margin-top: 20px;
+	padding: 5px;
+	margin-right: 8px;
+	border-top-style: dotted;
+	border-bottom-style: dotted;
+	border-width: 2px;
+	font-family: 'Oswald';
+	font-weight: 300;
+	width: 10%;
+	float: left;
+}
+
+.about-me {
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	background-color: white;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-width: 5px;
+	border-color: grey;
+}
+
+.about-me-title {
+	margin-left: 50px;
+	margin-bottom: 30px;
+	margin-top: 75px;
+	font-size: 25px;
+	font-family: 'Poiret One';
+	font-weight: bolder;
+}
+
+.about-me-body {
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 75px;
+	font-family: 'Arimo';
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.projects {
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: white;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-width: 5px;
+	border-color: grey;
+}
+
+.projects-title {
+	margin-left: 50px;
+	margin-bottom: 30px;
+	margin-top: 75px;
+	font-size: 25px;
+	font-family: 'Poiret One';
+	font-weight: bolder;
+}
+
+.projects-body {
+	font-family: 'Arimo';
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 75px;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.projects-images {
+	width: 120%;
+	margin-left: -40px;
+	margin-top: 20px;
+}
+
+.img {
+	width: 250px;
+	height: 150px;
+	border-width: 1px;
+	border-style: solid;
+}
+
+a {
+	color: grey;
+}
+
+.clash {
+	margin-bottom: 50px;
+}
+
+.ait {
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 20px;
+	margin-bottom: 75px;
+	border-radius: 10px;
+	background-color: white;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-width: 5px;
+	border-color: grey;
+}
+
+.ait-title {
+	margin-left: 50px;
+	margin-bottom: 30px;
+	margin-top: 75px;
+	font-size: 25px;
+	font-family: 'Poiret One';
+	font-weight: bolder;	
+}
+
+.ait-body {
+	font-family: 'Arimo';
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 75px;
+	font-size: 15px;
+	line-height: 20px;
+}
