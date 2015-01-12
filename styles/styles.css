@@ -18,16 +18,36 @@ ul {
 	list-style-type: none;
 }
 
+.website-header{
+	position: fixed;
+	width: 125%;
+	left: -12.5%;
+	top: 0px;
+	height: 50px;
+	opacity: 1;
+	z-index: 1;
+	background-color: #E1F0FF;
+}
+
+.website-header-text{
+	font-size: 20px;
+	left: -12.5%;
+	text-align: center;
+	font-family: Arial;
+	padding-top: 10px;
+}
+
 .header {
 	height: 50px;
 	background-color: #E6E6E6;
 	margin-left: -60px;
+	margin-top: 25px;
 }
 
 .header-cont {
 	position: fixed;
 	width: 100%;
-	top: 0px;
+	top: 25px;
 	opacity: 1;
 	z-index: 1;
 }
@@ -87,7 +107,7 @@ ul {
 
 .search-section {
 	text-align: center;
-	margin-top: 125px;
+	margin-top: 150px;
 /*	width: 10%;*/
 	float: left;
 	
@@ -96,7 +116,7 @@ ul {
 .search-section-page {
 	text-align: center;
 	margin-left: 600px;
-	margin-top: 110px;
+	margin-top: 135px;
 }
 
 .container3 {
@@ -170,7 +190,7 @@ ul {
 .categories {
     margin-bottom: auto;
     text-align: center;
-    margin-top: 130px;
+    margin-top: 180px;
 }
 
 .category {
