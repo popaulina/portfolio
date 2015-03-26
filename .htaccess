@@ -1,5 +1,4 @@
 ﻿RewriteEngine On
 RewriteCond %{portfolio.html} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
-RewriteCond %{ait.html} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteCond %{ait.html} !-d
+RewriteRule ^(.*)\.html$ /$1 [L,R=301] 
